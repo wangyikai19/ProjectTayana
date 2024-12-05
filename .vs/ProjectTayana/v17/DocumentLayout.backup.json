@@ -1,0 +1,797 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|c:\\users\\hp\\desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\projecttayana\\projecttayana\\newsadd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\newsadd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\newsadd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\newsadd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\newscontent.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\newscontent.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\newscontent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\newscontent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\news.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\news.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\news.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\news.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\dealers_ae.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\dealers_ae.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\news_ae.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\news_ae.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\dealerupdate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\dealerupdate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\dealers_ae.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\dealers_ae.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\dealermgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\dealermgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\dealermgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\dealermgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\user_ae.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\user_ae.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\user_ae.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\user_ae.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\mgt.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\mgt.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\areamgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\areamgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\certificate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\certificate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\yachtmgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\yachtmgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\datta-able-bootstrap-dashboard\\dist\\dashboard\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\datta-able-bootstrap-dashboard\\dist\\dashboard\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\news_ae.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\news_ae.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\web.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\web.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\company.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\company.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\specificationmgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\specificationmgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\contactus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\contactus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\companymgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\companymgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\yachtmgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\yachtmgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\companymgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\companymgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\datta-able-bootstrap-dashboard\\dist\\assets\\js\\plugins\\apexcharts.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\datta-able-bootstrap-dashboard\\dist\\assets\\js\\plugins\\apexcharts.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\specificationmgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\specificationmgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\overviewmgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\overviewmgt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\yachts_specification.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\yachts_specification.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\yachts_overview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\yachts_overview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\yachts_overview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\yachts_overview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\overviewmgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\overviewmgt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\dealers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\dealers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\dealers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\dealers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\tayana\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\tayana\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\tayana\\html _old\\css\\homestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\tayana\\html _old\\css\\homestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\newsedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\newsedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\newsedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\newsedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\signout.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\signout.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\yachts_layout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\yachts_layout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\projecttayana\\yachts_layout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}|ProjectTayana\\ProjectTayana.csproj|solutionrelative:projecttayana\\yachts_layout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "news.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\news.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\news.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\news.aspx",
+              "RelativeToolTip": "ProjectTayana\\news.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T05:11:48.299Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewsContent.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsContent.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\NewsContent.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsContent.aspx",
+              "RelativeToolTip": "ProjectTayana\\NewsContent.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T05:26:07.183Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewsAdd.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsAdd.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\NewsAdd.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsAdd.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\NewsAdd.aspx.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAWwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:25:54.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewsContent.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsContent.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\NewsContent.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsContent.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\NewsContent.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:14:36.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewsAdd.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsAdd.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\NewsAdd.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsAdd.aspx",
+              "RelativeToolTip": "ProjectTayana\\NewsAdd.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T06:35:16.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Index.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\Index.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Index.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\Index.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:31:27.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "news.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\news.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\news.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\news.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\news.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T05:11:59.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dealers_AE.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Dealers_AE.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\Dealers_AE.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Dealers_AE.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\Dealers_AE.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T04:58:00.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Index.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\Index.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Index.aspx",
+              "RelativeToolTip": "ProjectTayana\\Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-27T05:02:15.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "News_AE.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\News_AE.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\News_AE.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\News_AE.aspx",
+              "RelativeToolTip": "ProjectTayana\\News_AE.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T05:38:17.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User_AE.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\User_AE.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\User_AE.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\User_AE.aspx",
+              "RelativeToolTip": "ProjectTayana\\User_AE.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T06:24:05.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DealerMgt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\DealerMgt.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\DealerMgt.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\DealerMgt.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\DealerMgt.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:54:14.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dealers_AE.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Dealers_AE.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\Dealers_AE.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Dealers_AE.aspx",
+              "RelativeToolTip": "ProjectTayana\\Dealers_AE.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T06:14:21.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DealerUpdate.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\DealerUpdate.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\DealerUpdate.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\DealerUpdate.aspx",
+              "RelativeToolTip": "ProjectTayana\\DealerUpdate.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T06:35:47.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User_AE.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\User_AE.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\User_AE.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\User_AE.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\User_AE.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAMwCkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T04:58:32.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DealerMgt.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\DealerMgt.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\DealerMgt.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\DealerMgt.aspx",
+              "RelativeToolTip": "ProjectTayana\\DealerMgt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T06:10:49.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Certificate.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Certificate.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\Certificate.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Certificate.aspx",
+              "RelativeToolTip": "ProjectTayana\\Certificate.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T06:00:21.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Mgt.Master",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Mgt.Master",
+              "RelativeDocumentMoniker": "ProjectTayana\\Mgt.Master",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Mgt.Master",
+              "RelativeToolTip": "ProjectTayana\\Mgt.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T03:03:12.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AreaMgt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\AreaMgt.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\AreaMgt.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\AreaMgt.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\AreaMgt.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T06:15:47.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "yachtMgt.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\yachtMgt.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\yachtMgt.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\yachtMgt.aspx",
+              "RelativeToolTip": "ProjectTayana\\yachtMgt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T02:42:33.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\login.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\login.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\login.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\login.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:58:26.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\login.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\login.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\login.aspx",
+              "RelativeToolTip": "ProjectTayana\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T03:04:49.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\dashboard\\index.html",
+              "RelativeDocumentMoniker": "ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\dashboard\\index.html",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\dashboard\\index.html",
+              "RelativeToolTip": "ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\dashboard\\index.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-29T05:41:28.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "News_AE.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\News_AE.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\News_AE.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\News_AE.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\News_AE.aspx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:24:32.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Web.Master",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Web.Master",
+              "RelativeDocumentMoniker": "ProjectTayana\\Web.Master",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Web.Master",
+              "RelativeToolTip": "ProjectTayana\\Web.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T05:08:54.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Web.config",
+              "RelativeDocumentMoniker": "ProjectTayana\\Web.config",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Web.config",
+              "RelativeToolTip": "ProjectTayana\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-29T05:08:54.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "company.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\company.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\company.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\company.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\company.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwBgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:36:54.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SpecificationMgt.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\SpecificationMgt.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\SpecificationMgt.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\SpecificationMgt.aspx",
+              "RelativeToolTip": "ProjectTayana\\SpecificationMgt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T03:56:40.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "apexcharts.min.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\assets\\js\\plugins\\apexcharts.min.js",
+              "RelativeDocumentMoniker": "ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\assets\\js\\plugins\\apexcharts.min.js",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\assets\\js\\plugins\\apexcharts.min.js",
+              "RelativeToolTip": "ProjectTayana\\datta-able-bootstrap-dashboard\\dist\\assets\\js\\plugins\\apexcharts.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-29T02:32:15.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "yachtMgt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\yachtMgt.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\yachtMgt.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\yachtMgt.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\yachtMgt.aspx.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAQwNoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T02:25:56.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Yachts_Layout.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_Layout.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\Yachts_Layout.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_Layout.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\Yachts_Layout.aspx.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:56:44.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Yachts_Layout.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_Layout.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\Yachts_Layout.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_Layout.aspx",
+              "RelativeToolTip": "ProjectTayana\\Yachts_Layout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T06:56:37.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SignOut.ashx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\SignOut.ashx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\SignOut.ashx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\SignOut.ashx.cs",
+              "RelativeToolTip": "ProjectTayana\\SignOut.ashx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:58:20.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NewsEdit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsEdit.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\NewsEdit.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsEdit.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\NewsEdit.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAEwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:26:45.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "NewsEdit.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsEdit.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\NewsEdit.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\NewsEdit.aspx",
+              "RelativeToolTip": "ProjectTayana\\NewsEdit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-28T02:24:48.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "homestyle.css",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\tayana\\html _old\\css\\homestyle.css",
+              "RelativeDocumentMoniker": "ProjectTayana\\tayana\\html _old\\css\\homestyle.css",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\tayana\\html _old\\css\\homestyle.css",
+              "RelativeToolTip": "ProjectTayana\\tayana\\html _old\\css\\homestyle.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAIoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-27T09:16:10.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\tayana\\css\\style.css",
+              "RelativeDocumentMoniker": "ProjectTayana\\tayana\\css\\style.css",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\tayana\\css\\style.css",
+              "RelativeToolTip": "ProjectTayana\\tayana\\css\\style.css",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-27T05:42:41.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "dealers.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\dealers.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\dealers.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\dealers.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\dealers.aspx.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAMwH4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:25:01.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "dealers.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\dealers.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\dealers.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\dealers.aspx",
+              "RelativeToolTip": "ProjectTayana\\dealers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T07:24:52.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "contactUs.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\contactUs.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\contactUs.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\contactUs.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\contactUs.aspx.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:54:14.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OverViewMgt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\OverViewMgt.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\OverViewMgt.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\OverViewMgt.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\OverViewMgt.aspx.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAtwIUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:20:57.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SpecificationMgt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\SpecificationMgt.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\SpecificationMgt.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\SpecificationMgt.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\SpecificationMgt.aspx.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAIAywOUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:20:57.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Yachts_Specification.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_Specification.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\Yachts_Specification.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_Specification.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\Yachts_Specification.aspx.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:58:26.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Yachts_OverView.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_OverView.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\Yachts_OverView.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_OverView.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\Yachts_OverView.aspx.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAADwv4AAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:52:22.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Yachts_OverView.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_OverView.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\Yachts_OverView.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\Yachts_OverView.aspx",
+              "RelativeToolTip": "ProjectTayana\\Yachts_OverView.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T03:52:00.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CompanyMgt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\CompanyMgt.aspx.cs",
+              "RelativeDocumentMoniker": "ProjectTayana\\CompanyMgt.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\CompanyMgt.aspx.cs",
+              "RelativeToolTip": "ProjectTayana\\CompanyMgt.aspx.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAvwCQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:45:00.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OverViewMgt.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\OverViewMgt.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\OverViewMgt.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\OverViewMgt.aspx",
+              "RelativeToolTip": "ProjectTayana\\OverViewMgt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T05:35:18.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CompanyMgt.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\CompanyMgt.aspx",
+              "RelativeDocumentMoniker": "ProjectTayana\\CompanyMgt.aspx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u706B\u7BAD\u968A-backend\\\u904A\u8247\\ProjectTayana\\ProjectTayana\\CompanyMgt.aspx",
+              "RelativeToolTip": "ProjectTayana\\CompanyMgt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T03:44:57.161Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

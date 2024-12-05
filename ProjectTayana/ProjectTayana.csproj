@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{346E73F1-1A64-4DEF-BABF-FF0D0E9325CC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectTayana</RootNamespace>
+    <AssemblyName>ProjectTayana</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44343</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Konscious.Security.Cryptography.Argon2, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Konscious.Security.Cryptography.Argon2.1.3.1\lib\net46\Konscious.Security.Cryptography.Argon2.dll</HintPath>
+    </Reference>
+    <Reference Include="Konscious.Security.Cryptography.Blake2, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Konscious.Security.Cryptography.Blake2.1.1.1\lib\net46\Konscious.Security.Cryptography.Blake2.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailKit.4.8.0\lib\net47\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MimeKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.4.8.0\lib\net47\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="NetVips, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetVips.3.0.0\lib\net452\NetVips.dll</HintPath>
+    </Reference>
+    <Reference Include="Recaptcha.Web, Version=3.1.0.0, Culture=neutral, PublicKeyToken=c11b6c0ad947566e, processorArchitecture=MSIL">
+      <HintPath>..\packages\RecaptchaNet.3.1.0\lib\net45\Recaptcha.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Formats.Asn1, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Formats.Asn1.8.0.1\lib\net462\System.Formats.Asn1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AreaMgt.aspx" />
+    <Content Include="Certificate.aspx" />
+    <Content Include="CertificateMgt.aspx" />
+    <Content Include="company.aspx" />
+    <Content Include="company1.aspx" />
+    <Content Include="CompanyMgt.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="contactUs.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="datta-able-bootstrap-dashboard\.gitignore" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\landing.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\plugins\bootstrap.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\plugins\jsvectormap.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\style-preset.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\css\style.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\inter\inter.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\material.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\Phosphor-Duotone.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\style.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler-icons.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\application\img-coupon.png" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\favicon.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\landing\img-header-main.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\landing\img-wave.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\logo-dark.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\logo-white.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-1.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-10.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-2.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-3.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-4.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-5.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-6.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-7.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-8.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\images\user\avatar-9.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\fonts\custom-font.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\pages\dashboard-default.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\pcoded.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\apexcharts.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\bootstrap.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\feather.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\jsvectormap.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\popper.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\simplebar.min.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\world-merc.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\js\plugins\world.js" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\dashboard\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\elements\bc_color.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\elements\bc_typography.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\elements\icon-feather.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\breadcrumb.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\footer-block.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\footer-js.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\head-css.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\head-page-meta.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\header-content.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\layout-vertical.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\loader.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\menu-list.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\sidebar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\layouts\topbar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\other\sample-page.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\pages\login-v1.html" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\pages\register-v1.html" />
+    <Content Include="datta-able-bootstrap-dashboard\gulpfile.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\inter\inter.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\material.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\Phosphor-Duotone.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\style.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler-icons.min.css" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\application\img-coupon.png" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\favicon.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\landing\img-header-main.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\landing\img-wave.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\logo-dark.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\logo-white.svg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-1.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-10.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-2.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-3.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-4.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-5.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-6.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-7.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-8.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\images\user\avatar-9.jpg" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\js\fonts\custom-font.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\js\pages\dashboard-default.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\js\pcoded.js" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\dashboard\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\elements\bc_color.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\elements\bc_typography.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\elements\icon-feather.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\index.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\breadcrumb.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\footer-block.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\footer-js.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\head-css.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\head-page-meta.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\header-content.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\layout-vertical.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\loader.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\menu-list.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\sidebar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\layouts\topbar.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\other\sample-page.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\pages\login-v1.html" />
+    <Content Include="datta-able-bootstrap-dashboard\src\html\pages\register-v1.html" />
+    <Content Include="DealerMgt.aspx" />
+    <Content Include="dealers.aspx" />
+    <Content Include="Dealers_AE.aspx" />
+    <Content Include="DealerUpdate.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Image_AE.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="news.aspx" />
+    <Content Include="NewsAdd.aspx" />
+    <Content Include="NewsContent.aspx" />
+    <Content Include="NewsEdit.aspx" />
+    <Content Include="News_AE.aspx" />
+    <Content Include="OverViewMgt.aspx" />
+    <Content Include="RecaptchaNet.Readme.txt" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="SpecificationMgt.aspx" />
+    <Content Include="User_AE.aspx" />
+    <Content Include="yachtMgt.aspx" />
+    <Content Include="yachts.aspx" />
+    <Content Include="datta-able-bootstrap-dashboard\.github\workflows\prod.yml" />
+    <Content Include="datta-able-bootstrap-dashboard\.prettierignore" />
+    <Content Include="datta-able-bootstrap-dashboard\.prettierrc" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\feather\feather.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\inter\Inter-italic.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\inter\Inter-roman.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\material\material.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\Phosphor-Duotone.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\Phosphor-Duotone.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\phosphor\duotone\selection.json" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\dist\assets\fonts\tabler\tabler-icons.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\LICENSE" />
+    <Content Include="datta-able-bootstrap-dashboard\package-lock.json" />
+    <Content Include="datta-able-bootstrap-dashboard\package.json" />
+    <Content Include="datta-able-bootstrap-dashboard\README.md" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\feather\feather.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\inter\Inter-italic.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\inter\Inter-roman.var.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\material\material.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\Phosphor-Duotone.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\Phosphor-Duotone.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\phosphor\duotone\selection.json" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.eot" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.ttf" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.woff" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\fonts\tabler\tabler-icons.woff2" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\landing.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\settings\_bootstrap-variables.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\settings\_color-variables.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\settings\_theme-variables.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\style-preset.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\style.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_avtar.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_badge.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_card.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_dropdown.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_form.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_progress.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_table.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_tabs.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\components\_widget.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-common.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-footer.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-header.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\layouts\_pc-sidebar.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\pages\_authentication.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\pages\_icon-pages.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\_general.scss" />
+    <Content Include="datta-able-bootstrap-dashboard\src\assets\scss\themes\_generic.scss" />
+    <Content Include="Mgt.Master" />
+    <Content Include="CheckAccount.ashx" />
+    <Content Include="Yachts_Layout.aspx" />
+    <Content Include="Yachts_OverView.aspx" />
+    <Content Include="Yachts_Specification.aspx" />
+    <None Include="Scripts\jquery-3.7.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.0.js" />
+    <Content Include="Scripts\jquery-3.7.0.min.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="tayana\company.htm" />
+    <Content Include="tayana\contact.htm" />
+    <Content Include="tayana\css\csshover.htc" />
+    <Content Include="tayana\css\homestyle.css" />
+    <Content Include="tayana\css\iepngfix.htc" />
+    <Content Include="tayana\css\js.css" />
+    <Content Include="tayana\css\reset.css" />
+    <Content Include="tayana\css\style.css" />
+    <Content Include="tayana\dealers.htm" />
+    <Content Include="tayana\html _old\compan01.htm" />
+    <Content Include="tayana\html _old\contact.htm" />
+    <Content Include="tayana\html _old\css\csshover.htc" />
+    <Content Include="tayana\html _old\css\homestyle.css" />
+    <Content Include="tayana\html _old\css\iepngfix.htc" />
+    <Content Include="tayana\html _old\css\reset.css" />
+    <Content Include="tayana\html _old\css\style.css" />
+    <Content Include="tayana\html _old\dealers.htm" />
+    <Content Include="tayana\html _old\homestyle.htm" />
+    <Content Include="tayana\html _old\homestyle02.htm" />
+    <Content Include="tayana\html _old\images\back.gif" />
+    <Content Include="tayana\html _old\images\banner001.jpg" />
+    <Content Include="tayana\html _old\images\banner002.jpg" />
+    <Content Include="tayana\html _old\images\banner002b.jpg" />
+    <Content Include="tayana\html _old\images\banner003.jpg" />
+    <Content Include="tayana\html _old\images\banner003b.jpg" />
+    <Content Include="tayana\html _old\images\banner004.jpg" />
+    <Content Include="tayana\html _old\images\banner005.jpg" />
+    <Content Include="tayana\html _old\images\banner006.jpg" />
+    <Content Include="tayana\html _old\images\banner00_masks.png" />
+    <Content Include="tayana\html _old\images\banner01_masks.png" />
+    <Content Include="tayana\html _old\images\banner02_masks.png" />
+    <Content Include="tayana\html _old\images\banner_masks.png" />
+    <Content Include="tayana\html _old\images\bg1.jpg" />
+    <Content Include="tayana\html _old\images\buttbg.gif" />
+    <Content Include="tayana\html _old\images\buttleft.gif" />
+    <Content Include="tayana\html _old\images\buttom01.gif" />
+    <Content Include="tayana\html _old\images\buttom02.gif" />
+    <Content Include="tayana\html _old\images\buttom03.gif" />
+    <Content Include="tayana\html _old\images\buttright.gif" />
+    <Content Include="tayana\html _old\images\changbg.gif" />
+    <Content Include="tayana\html _old\images\changbg.png" />
+    <Content Include="tayana\html _old\images\changbg1.gif" />
+    <Content Include="tayana\html _old\images\changbg1.png" />
+    <Content Include="tayana\html _old\images\company.jpg" />
+    <Content Include="tayana\html _old\images\contact.jpg" />
+    <Content Include="tayana\html _old\images\con_bg.gif" />
+    <Content Include="tayana\html _old\images\DEALERS.jpg" />
+    <Content Include="tayana\html _old\images\dealers001.jpg" />
+    <Content Include="tayana\html _old\images\dealers002.jpg" />
+    <Content Include="tayana\html _old\images\dealers003.jpg" />
+    <Content Include="tayana\html _old\images\dealers004.jpg" />
+    <Content Include="tayana\html _old\images\deckplan01.jpg" />
+    <Content Include="tayana\html _old\images\downloads.gif" />
+    <Content Include="tayana\html _old\images\footer.jpg" />
+    <Content Include="tayana\html _old\images\icon001.gif" />
+    <Content Include="tayana\html _old\images\icon002.gif" />
+    <Content Include="tayana\html _old\images\icon003.gif" />
+    <Content Include="tayana\html _old\images\icon004.gif" />
+    <Content Include="tayana\html _old\images\icon005.gif" />
+    <Content Include="tayana\html _old\images\icon006.gif" />
+    <Content Include="tayana\html _old\images\icon007.gif" />
+    <Content Include="tayana\html _old\images\icon008.gif" />
+    <Content Include="tayana\html _old\images\images\menu_y1_04.jpg" />
+    <Content Include="tayana\html _old\images\images\menu_y1_05.jpg" />
+    <Content Include="tayana\html _old\images\images\menu_y1_06.jpg" />
+    <Content Include="tayana\html _old\images\images\menu_y2_04.jpg" />
+    <Content Include="tayana\html _old\images\images\menu_y2_05.jpg" />
+    <Content Include="tayana\html _old\images\images\menu_y2_06.jpg" />
+    <Content Include="tayana\html _old\images\lefttop.gif" />
+    <Content Include="tayana\html _old\images\menu.gif" />
+    <Content Include="tayana\html _old\images\menu1_03.gif" />
+    <Content Include="tayana\html _old\images\menu1_04.gif" />
+    <Content Include="tayana\html _old\images\menu1_05.gif" />
+    <Content Include="tayana\html _old\images\menu1_06.gif" />
+    <Content Include="tayana\html _old\images\menu1_07.gif" />
+    <Content Include="tayana\html _old\images\menu2_03.gif" />
+    <Content Include="tayana\html _old\images\menu2_04.gif" />
+    <Content Include="tayana\html _old\images\menu2_05.gif" />
+    <Content Include="tayana\html _old\images\menu2_06.gif" />
+    <Content Include="tayana\html _old\images\menu2_07.gif" />
+    <Content Include="tayana\html _old\images\menu_y1_03.jpg" />
+    <Content Include="tayana\html _old\images\menu_y1_04.jpg" />
+    <Content Include="tayana\html _old\images\menu_y1_05.jpg" />
+    <Content Include="tayana\html _old\images\menu_y1_06.jpg" />
+    <Content Include="tayana\html _old\images\menu_y2_03.jpg" />
+    <Content Include="tayana\html _old\images\menu_y2_04.jpg" />
+    <Content Include="tayana\html _old\images\menu_y2_05.jpg" />
+    <Content Include="tayana\html _old\images\menu_y2_06.jpg" />
+    <Content Include="tayana\html _old\images\new01.png" />
+    <Content Include="tayana\html _old\images\newbanner.jpg" />
+    <Content Include="tayana\html _old\images\news.gif" />
+    <Content Include="tayana\html _old\images\new_top01.png" />
+    <Content Include="tayana\html _old\images\pit001.jpg" />
+    <Content Include="tayana\html _old\images\pit002.jpg" />
+    <Content Include="tayana\html _old\images\pit003.jpg" />
+    <Content Include="tayana\html _old\images\pit004.jpg" />
+    <Content Include="tayana\html _old\images\pit006.jpg" />
+    <Content Include="tayana\html _old\images\pit007.jpg" />
+    <Content Include="tayana\html _old\images\pit008.jpg" />
+    <Content Include="tayana\html _old\images\pit009.jpg" />
+    <Content Include="tayana\html _old\images\pit010.jpg" />
+    <Content Include="tayana\html _old\images\sub_bg.gif" />
+    <Content Include="tayana\html _old\images\test002.jpg" />
+    <Content Include="tayana\html _old\images\test1.jpg" />
+    <Content Include="tayana\html _old\images\tog.jpg" />
+    <Content Include="tayana\html _old\images\top.gif" />
+    <Content Include="tayana\html _old\images\transparent.gif" />
+    <Content Include="tayana\html _old\images\ya01.jpg" />
+    <Content Include="tayana\html _old\index.htm" />
+    <Content Include="tayana\html _old\index1.htm" />
+    <Content Include="tayana\html _old\javascript\iepngfix_tilebg.js" />
+    <Content Include="tayana\html _old\javascript\pngfix.js" />
+    <Content Include="tayana\html _old\news01.htm" />
+    <Content Include="tayana\html _old\news02.htm" />
+    <Content Include="tayana\html _old\Scripts\AC_RunActiveContent.js" />
+    <Content Include="tayana\html _old\Scripts\jquery-1.6.1.min.js" />
+    <Content Include="tayana\html _old\Scripts\jquery.cycle.all.2.74.js" />
+    <Content Include="tayana\html _old\Scripts\jquery.cycle.all.latest.js" />
+    <Content Include="tayana\html _old\Scripts\jquery.event.hover-1.0.js" />
+    <Content Include="tayana\html _old\Scripts\jquery.min.js" />
+    <Content Include="tayana\html _old\Scripts\jquery.timers.js" />
+    <Content Include="tayana\html _old\work_list.htm" />
+    <Content Include="tayana\html _old\yachts01.htm" />
+    <Content Include="tayana\html _old\yachts02.htm" />
+    <Content Include="tayana\html _old\yachts03.htm" />
+    <Content Include="tayana\html\compan01.htm" />
+    <Content Include="tayana\html\contact.htm" />
+    <Content Include="tayana\html\css\csshover.htc" />
+    <Content Include="tayana\html\css\homestyle.css" />
+    <Content Include="tayana\html\css\iepngfix.htc" />
+    <Content Include="tayana\html\css\jquery.ad-gallery.css" />
+    <Content Include="tayana\html\css\js.css" />
+    <Content Include="tayana\html\css\reset.css" />
+    <Content Include="tayana\html\css\style.css" />
+    <Content Include="tayana\html\dealers.htm" />
+    <Content Include="tayana\html\homestyle.htm" />
+    <Content Include="tayana\html\homestyle02.htm" />
+    <Content Include="tayana\html\images\ad_next.png" />
+    <Content Include="tayana\html\images\ad_prev.png" />
+    <Content Include="tayana\html\images\ad_scroll_back.png" />
+    <Content Include="tayana\html\images\ad_scroll_forward.png" />
+    <Content Include="tayana\html\images\back.gif" />
+    <Content Include="tayana\html\images\banner001.jpg" />
+    <Content Include="tayana\html\images\banner001b.jpg" />
+    <Content Include="tayana\html\images\banner002.jpg" />
+    <Content Include="tayana\html\images\banner002b.jpg" />
+    <Content Include="tayana\html\images\banner003.jpg" />
+    <Content Include="tayana\html\images\banner003b.jpg" />
+    <Content Include="tayana\html\images\banner004.jpg" />
+    <Content Include="tayana\html\images\banner004b.jpg" />
+    <Content Include="tayana\html\images\banner005.jpg" />
+    <Content Include="tayana\html\images\banner005b.jpg" />
+    <Content Include="tayana\html\images\banner006.jpg" />
+    <Content Include="tayana\html\images\banner006b.jpg" />
+    <Content Include="tayana\html\images\banner00_masks.png" />
+    <Content Include="tayana\html\images\banner01_masks.png" />
+    <Content Include="tayana\html\images\banner02_masks.png" />
+    <Content Include="tayana\html\images\banner_masks.png" />
+    <Content Include="tayana\html\images\bg1.jpg" />
+    <Content Include="tayana\html\images\buttbg.gif" />
+    <Content Include="tayana\html\images\buttleft.gif" />
+    <Content Include="tayana\html\images\buttom01.gif" />
+    <Content Include="tayana\html\images\buttom02.gif" />
+    <Content Include="tayana\html\images\buttom03.gif" />
+    <Content Include="tayana\html\images\buttright.gif" />
+    <Content Include="tayana\html\images\changbg.gif" />
+    <Content Include="tayana\html\images\changbg.png" />
+    <Content Include="tayana\html\images\changbg1.gif" />
+    <Content Include="tayana\html\images\changbg1.png" />
+    <Content Include="tayana\html\images\company.jpg" />
+    <Content Include="tayana\html\images\contact.jpg" />
+    <Content Include="tayana\html\images\con_bg.gif" />
+    <Content Include="tayana\html\images\DEALERS.jpg" />
+    <Content Include="tayana\html\images\dealers001.jpg" />
+    <Content Include="tayana\html\images\dealers002.jpg" />
+    <Content Include="tayana\html\images\dealers003.jpg" />
+    <Content Include="tayana\html\images\dealers004.jpg" />
+    <Content Include="tayana\html\images\deckplan01.jpg" />
+    <Content Include="tayana\html\images\default1.jpg" />
+    <Content Include="tayana\html\images\default2.jpg" />
+    <Content Include="tayana\html\images\downloads.gif" />
+    <Content Include="tayana\html\images\footer.jpg" />
+    <Content Include="tayana\html\images\i001.jpg" />
+    <Content Include="tayana\html\images\i002.jpg" />
+    <Content Include="tayana\html\images\i003.jpg" />
+    <Content Include="tayana\html\images\i004.jpg" />
+    <Content Include="tayana\html\images\i005.jpg" />
+    <Content Include="tayana\html\images\i006.jpg" />
+    <Content Include="tayana\html\images\icon001.gif" />
+    <Content Include="tayana\html\images\icon002.gif" />
+    <Content Include="tayana\html\images\icon003.gif" />
+    <Content Include="tayana\html\images\icon004.gif" />
+    <Content Include="tayana\html\images\icon005.gif" />
+    <Content Include="tayana\html\images\icon006.gif" />
+    <Content Include="tayana\html\images\icon007.gif" />
+    <Content Include="tayana\html\images\icon008.gif" />
+    <Content Include="tayana\html\images\images\menu_y1_04.jpg" />
+    <Content Include="tayana\html\images\images\menu_y1_05.jpg" />
+    <Content Include="tayana\html\images\images\menu_y1_06.jpg" />
+    <Content Include="tayana\html\images\images\menu_y2_04.jpg" />
+    <Content Include="tayana\html\images\images\menu_y2_05.jpg" />
+    <Content Include="tayana\html\images\images\menu_y2_06.jpg" />
+    <Content Include="tayana\html\images\lefttop.gif" />
+    <Content Include="tayana\html\images\loader.gif" />
+    <Content Include="tayana\html\images\menu.gif" />
+    <Content Include="tayana\html\images\menu1_03.gif" />
+    <Content Include="tayana\html\images\menu1_04.gif" />
+    <Content Include="tayana\html\images\menu1_05.gif" />
+    <Content Include="tayana\html\images\menu1_06.gif" />
+    <Content Include="tayana\html\images\menu1_07.gif" />
+    <Content Include="tayana\html\images\menu2_03.gif" />
+    <Content Include="tayana\html\images\menu2_04.gif" />
+    <Content Include="tayana\html\images\menu2_05.gif" />
+    <Content Include="tayana\html\images\menu2_06.gif" />
+    <Content Include="tayana\html\images\menu2_07.gif" />
+    <Content Include="tayana\html\images\menu_y1_03.jpg" />
+    <Content Include="tayana\html\images\menu_y1_04.jpg" />
+    <Content Include="tayana\html\images\menu_y1_05.jpg" />
+    <Content Include="tayana\html\images\menu_y1_06.jpg" />
+    <Content Include="tayana\html\images\menu_y2_03.jpg" />
+    <Content Include="tayana\html\images\menu_y2_04.jpg" />
+    <Content Include="tayana\html\images\menu_y2_05.jpg" />
+    <Content Include="tayana\html\images\menu_y2_06.jpg" />
+    <Content Include="tayana\html\images\new01.png" />
+    <Content Include="tayana\html\images\newbanner.jpg" />
+    <Content Include="tayana\html\images\news.gif" />
+    <Content Include="tayana\html\images\new_top01.png" />
+    <Content Include="tayana\html\images\opa75.png" />
+    <Content Include="tayana\html\images\pit001.jpg" />
+    <Content Include="tayana\html\images\pit002.jpg" />
+    <Content Include="tayana\html\images\pit003.jpg" />
+    <Content Include="tayana\html\images\pit004.jpg" />
+    <Content Include="tayana\html\images\pit006.jpg" />
+    <Content Include="tayana\html\images\pit007.jpg" />
+    <Content Include="tayana\html\images\pit008.jpg" />
+    <Content Include="tayana\html\images\pit009.jpg" />
+    <Content Include="tayana\html\images\pit010.jpg" />
+    <Content Include="tayana\html\images\sub_bg.gif" />
+    <Content Include="tayana\html\images\test002.jpg" />
+    <Content Include="tayana\html\images\test1.jpg" />
+    <Content Include="tayana\html\images\tog.jpg" />
+    <Content Include="tayana\html\images\top.gif" />
+    <Content Include="tayana\html\images\transparent.gif" />
+    <Content Include="tayana\html\images\ya01.jpg" />
+    <Content Include="tayana\html\index.htm" />
+    <Content Include="tayana\html\index1.htm" />
+    <Content Include="tayana\html\index_test.htm" />
+    <Content Include="tayana\html\javascript\iepngfix_tilebg.js" />
+    <Content Include="tayana\html\javascript\pngfix.js" />
+    <Content Include="tayana\html\news01.htm" />
+    <Content Include="tayana\html\news02.htm" />
+    <Content Include="tayana\html\Scripts\AC_RunActiveContent.js" />
+    <Content Include="tayana\html\Scripts\jquery-1.6.1.min.js" />
+    <Content Include="tayana\html\Scripts\jquery.ad-gallery.js" />
+    <Content Include="tayana\html\Scripts\jquery.cycle.all.2.74.js" />
+    <Content Include="tayana\html\Scripts\jquery.cycle.all.latest.js" />
+    <Content Include="tayana\html\Scripts\jquery.event.hover-1.0.js" />
+    <Content Include="tayana\html\Scripts\jquery.min.js" />
+    <Content Include="tayana\html\Scripts\jquery.timers.js" />
+    <Content Include="tayana\html\work_list.htm" />
+    <Content Include="tayana\html\yachts01.htm" />
+    <Content Include="tayana\html\yachts02.htm" />
+    <Content Include="tayana\html\yachts03.htm" />
+    <Content Include="tayana\html\yachts03_test.htm" />
+    <Content Include="tayana\images\back.gif" />
+    <Content Include="tayana\images\banner001.jpg" />
+    <Content Include="tayana\images\banner001b.jpg" />
+    <Content Include="tayana\images\banner002.jpg" />
+    <Content Include="tayana\images\banner002b.jpg" />
+    <Content Include="tayana\images\banner003.jpg" />
+    <Content Include="tayana\images\banner003b.jpg" />
+    <Content Include="tayana\images\banner004.jpg" />
+    <Content Include="tayana\images\banner004b.jpg" />
+    <Content Include="tayana\images\banner005.jpg" />
+    <Content Include="tayana\images\banner005b.jpg" />
+    <Content Include="tayana\images\banner006.jpg" />
+    <Content Include="tayana\images\banner006b.jpg" />
+    <Content Include="tayana\images\banner00_masks.png" />
+    <Content Include="tayana\images\banner01_masks.png" />
+    <Content Include="tayana\images\banner02_masks.png" />
+    <Content Include="tayana\images\banner_masks.png" />
+    <Content Include="tayana\images\bg1.jpg" />
+    <Content Include="tayana\images\bgbg.jpg" />
+    <Content Include="tayana\images\bot.jpg" />
+    <Content Include="tayana\images\bot1.jpg" />
+    <Content Include="tayana\images\buttbg.gif" />
+    <Content Include="tayana\images\buttleft.gif" />
+    <Content Include="tayana\images\buttom01.gif" />
+    <Content Include="tayana\images\buttom02.gif" />
+    <Content Include="tayana\images\buttom03.gif" />
+    <Content Include="tayana\images\buttright.gif" />
+    <Content Include="tayana\images\changbg.gif" />
+    <Content Include="tayana\images\changbg.png" />
+    <Content Include="tayana\images\changbg1.gif" />
+    <Content Include="tayana\images\changbg1.png" />
+    <Content Include="tayana\images\company.jpg" />
+    <Content Include="tayana\images\contact.jpg" />
+    <Content Include="tayana\images\con_bg.gif" />
+    <Content Include="tayana\images\DEALERS.jpg" />
+    <Content Include="tayana\images\dealers001.jpg" />
+    <Content Include="tayana\images\dealers002.jpg" />
+    <Content Include="tayana\images\dealers003.jpg" />
+    <Content Include="tayana\images\dealers004.jpg" />
+    <Content Include="tayana\images\deckplan01.jpg" />
+    <Content Include="tayana\images\downloads.gif" />
+    <Content Include="tayana\images\footer.jpg" />
+    <Content Include="tayana\images\i001.jpg" />
+    <Content Include="tayana\images\i002.jpg" />
+    <Content Include="tayana\images\i003.jpg" />
+    <Content Include="tayana\images\i004.jpg" />
+    <Content Include="tayana\images\i005.jpg" />
+    <Content Include="tayana\images\i006.jpg" />
+    <Content Include="tayana\images\icon001.gif" />
+    <Content Include="tayana\images\icon002.gif" />
+    <Content Include="tayana\images\icon003.gif" />
+    <Content Include="tayana\images\icon004.gif" />
+    <Content Include="tayana\images\icon005.gif" />
+    <Content Include="tayana\images\icon006.gif" />
+    <Content Include="tayana\images\icon007.gif" />
+    <Content Include="tayana\images\icon008.gif" />
+    <Content Include="tayana\images\lefttop.gif" />
+    <Content Include="tayana\images\mainbg.gif" />
+    <Content Include="tayana\images\menu.gif" />
+    <Content Include="tayana\images\menu.jpg" />
+    <Content Include="tayana\images\menu1.jpg" />
+    <Content Include="tayana\images\menu1_03.gif" />
+    <Content Include="tayana\images\menu1_04.gif" />
+    <Content Include="tayana\images\menu1_05.gif" />
+    <Content Include="tayana\images\menu1_06.gif" />
+    <Content Include="tayana\images\menu1_07.gif" />
+    <Content Include="tayana\images\menu2_03.gif" />
+    <Content Include="tayana\images\menu2_04.gif" />
+    <Content Include="tayana\images\menu2_05.gif" />
+    <Content Include="tayana\images\menu2_06.gif" />
+    <Content Include="tayana\images\menu2_07.gif" />
+    <Content Include="tayana\images\menu_y1_03.jpg" />
+    <Content Include="tayana\images\menu_y1_04.jpg" />
+    <Content Include="tayana\images\menu_y1_05.jpg" />
+    <Content Include="tayana\images\menu_y1_06.jpg" />
+    <Content Include="tayana\images\menu_y2_03.jpg" />
+    <Content Include="tayana\images\menu_y2_04.jpg" />
+    <Content Include="tayana\images\menu_y2_05.jpg" />
+    <Content Include="tayana\images\menu_y2_06.jpg" />
+    <Content Include="tayana\images\mmmmeeeee.gif" />
+    <Content Include="tayana\images\navline.gif" />
+    <Content Include="tayana\images\nav_hover_bg.gif" />
+    <Content Include="tayana\images\new01.png" />
+    <Content Include="tayana\images\newbanner.jpg" />
+    <Content Include="tayana\images\news.gif" />
+    <Content Include="tayana\images\news_list.jpg" />
+    <Content Include="tayana\images\news_show.jpg" />
+    <Content Include="tayana\images\new_top01.png" />
+    <Content Include="tayana\images\pit001.jpg" />
+    <Content Include="tayana\images\pit002.jpg" />
+    <Content Include="tayana\images\pit003.jpg" />
+    <Content Include="tayana\images\pit004.jpg" />
+    <Content Include="tayana\images\pit006.jpg" />
+    <Content Include="tayana\images\pit007.jpg" />
+    <Content Include="tayana\images\pit008.jpg" />
+    <Content Include="tayana\images\pit009.jpg" />
+    <Content Include="tayana\images\pit010.jpg" />
+    <Content Include="tayana\images\rnav_line.gif" />
+    <Content Include="tayana\images\sub_bg.gif" />
+    <Content Include="tayana\images\test002.jpg" />
+    <Content Include="tayana\images\test1.jpg" />
+    <Content Include="tayana\images\tog.jpg" />
+    <Content Include="tayana\images\top.gif" />
+    <Content Include="tayana\images\TOP.jpg" />
+    <Content Include="tayana\images\TOP1.jpg" />
+    <Content Include="tayana\images\TOP2.jpg" />
+    <Content Include="tayana\images\TOP3.jpg" />
+    <Content Include="tayana\images\TOP4.jpg" />
+    <Content Include="tayana\images\TOP5.jpg" />
+    <Content Include="tayana\images\topa1.jpg" />
+    <Content Include="tayana\images\topa2.jpg" />
+    <Content Include="tayana\images\topa3.jpg" />
+    <Content Include="tayana\images\transparent.gif" />
+    <Content Include="tayana\images\ya01.jpg" />
+    <Content Include="tayana\images\yachts.jpg" />
+    <Content Include="tayana\images\yachts_1.jpg" />
+    <Content Include="tayana\images\yachts_2.jpg" />
+    <Content Include="tayana\index.htm" />
+    <Content Include="tayana\javascript\iepngfix_tilebg.js" />
+    <Content Include="tayana\javascript\pngfix.js" />
+    <Content Include="tayana\news.htm" />
+    <Content Include="tayana\news_1.htm" />
+    <Content Include="tayana\Scripts\AC_RunActiveContent.js" />
+    <Content Include="tayana\Scripts\jquery-1.6.1.min.js" />
+    <Content Include="tayana\Scripts\jquery.cycle.all.2.74.js" />
+    <Content Include="tayana\Scripts\jquery.cycle.all.latest.js" />
+    <Content Include="tayana\Scripts\jquery.event.hover-1.0.js" />
+    <Content Include="tayana\Scripts\jquery.min.js" />
+    <Content Include="tayana\Scripts\jquery.timers.js" />
+    <Content Include="tayana\yachts.htm" />
+    <Content Include="tayana\yachts_1.htm" />
+    <Content Include="tayana\yachts_2.htm" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="tayana\html _old\images\images\Thumbs.db" />
+    <Content Include="tayana\html _old\images\Thumbs.db" />
+    <Content Include="tayana\html\images\images\Thumbs.db" />
+    <Content Include="tayana\html\images\Thumbs.db" />
+    <Content Include="tayana\images\Thumbs.db" />
+    <Content Include="Web.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="AreaMgt.aspx.cs">
+      <DependentUpon>AreaMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaMgt.aspx.designer.cs">
+      <DependentUpon>AreaMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate.aspx.cs">
+      <DependentUpon>Certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificate.aspx.designer.cs">
+      <DependentUpon>Certificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CertificateMgt.aspx.cs">
+      <DependentUpon>CertificateMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CertificateMgt.aspx.designer.cs">
+      <DependentUpon>CertificateMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckAccount.ashx.cs">
+      <DependentUpon>CheckAccount.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="company.aspx.cs">
+      <DependentUpon>company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company.aspx.designer.cs">
+      <DependentUpon>company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company1.aspx.cs">
+      <DependentUpon>company1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company1.aspx.designer.cs">
+      <DependentUpon>company1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyMgt.aspx.cs">
+      <DependentUpon>CompanyMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyMgt.aspx.designer.cs">
+      <DependentUpon>CompanyMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactUs.aspx.cs">
+      <DependentUpon>contactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactUs.aspx.designer.cs">
+      <DependentUpon>contactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataHelper.cs" />
+    <Compile Include="DealerMgt.aspx.cs">
+      <DependentUpon>DealerMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DealerMgt.aspx.designer.cs">
+      <DependentUpon>DealerMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dealers.aspx.cs">
+      <DependentUpon>dealers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dealers.aspx.designer.cs">
+      <DependentUpon>dealers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealers_AE.aspx.cs">
+      <DependentUpon>Dealers_AE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealers_AE.aspx.designer.cs">
+      <DependentUpon>Dealers_AE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DealerUpdate.aspx.cs">
+      <DependentUpon>DealerUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DealerUpdate.aspx.designer.cs">
+      <DependentUpon>DealerUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Image_AE.aspx.cs">
+      <DependentUpon>Image_AE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Image_AE.aspx.designer.cs">
+      <DependentUpon>Image_AE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mgt.Master.cs">
+      <DependentUpon>Mgt.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mgt.Master.designer.cs">
+      <DependentUpon>Mgt.Master</DependentUpon>
+    </Compile>
+    <Compile Include="news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsAdd.aspx.cs">
+      <DependentUpon>NewsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsAdd.aspx.designer.cs">
+      <DependentUpon>NewsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsContent.aspx.cs">
+      <DependentUpon>NewsContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsContent.aspx.designer.cs">
+      <DependentUpon>NewsContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsEdit.aspx.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsEdit.aspx.designer.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News_AE.aspx.cs">
+      <DependentUpon>News_AE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News_AE.aspx.designer.cs">
+      <DependentUpon>News_AE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OverViewMgt.aspx.cs">
+      <DependentUpon>OverViewMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OverViewMgt.aspx.designer.cs">
+      <DependentUpon>OverViewMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignOut.ashx.cs">
+      <DependentUpon>SignOut.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SpecificationMgt.aspx.cs">
+      <DependentUpon>SpecificationMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SpecificationMgt.aspx.designer.cs">
+      <DependentUpon>SpecificationMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_AE.aspx.cs">
+      <DependentUpon>User_AE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_AE.aspx.designer.cs">
+      <DependentUpon>User_AE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web.Master.cs">
+      <DependentUpon>Web.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web.Master.designer.cs">
+      <DependentUpon>Web.Master</DependentUpon>
+    </Compile>
+    <Compile Include="yachtMgt.aspx.cs">
+      <DependentUpon>yachtMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yachtMgt.aspx.designer.cs">
+      <DependentUpon>yachtMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yachts.aspx.cs">
+      <DependentUpon>yachts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yachts.aspx.designer.cs">
+      <DependentUpon>yachts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yachts_Layout.aspx.cs">
+      <DependentUpon>Yachts_Layout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yachts_Layout.aspx.designer.cs">
+      <DependentUpon>Yachts_Layout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yachts_OverView.aspx.cs">
+      <DependentUpon>Yachts_OverView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yachts_OverView.aspx.designer.cs">
+      <DependentUpon>Yachts_OverView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yachts_Specification.aspx.cs">
+      <DependentUpon>Yachts_Specification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yachts_Specification.aspx.designer.cs">
+      <DependentUpon>Yachts_Specification.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_GlobalResources\" />
+    <Folder Include="tayana\html _old\images\新增資料夾\" />
+    <Folder Include="tayana\html\images\新增資料夾\" />
+    <Folder Include="Toolkits\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.0.min.map" />
+    <Content Include="SignOut.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53372</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44343/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\NetVips.Native.win-x64.net452.8.16.0\build\net452\NetVips.Native.win-x64.net452.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NetVips.Native.win-x64.net452.8.16.0\build\net452\NetVips.Native.win-x64.net452.targets'))" />
+    <Error Condition="!Exists('..\packages\NetVips.Native.win-x86.net452.8.16.0\build\net452\NetVips.Native.win-x86.net452.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NetVips.Native.win-x86.net452.8.16.0\build\net452\NetVips.Native.win-x86.net452.targets'))" />
+  </Target>
+  <Import Project="..\packages\NetVips.Native.win-x64.net452.8.16.0\build\net452\NetVips.Native.win-x64.net452.targets" Condition="Exists('..\packages\NetVips.Native.win-x64.net452.8.16.0\build\net452\NetVips.Native.win-x64.net452.targets')" />
+  <Import Project="..\packages\NetVips.Native.win-x86.net452.8.16.0\build\net452\NetVips.Native.win-x86.net452.targets" Condition="Exists('..\packages\NetVips.Native.win-x86.net452.8.16.0\build\net452\NetVips.Native.win-x86.net452.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
